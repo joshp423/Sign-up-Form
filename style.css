@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+}
+
+.image {
+    background-image: url("IMG_0189.jpg");
+}
+.pageContainer {
+    display: flex;
+}
