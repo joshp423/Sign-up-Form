@@ -51,6 +51,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: rgb(234, 231, 231);
+    padding-left: 30px;
 }
 
 .blurb {
@@ -72,9 +73,12 @@ img {
 
 .formEntry>div {
     display: flex;
-
 }
 
+.formEntry>div>div {
+    display: flex;
+    flex-direction: column;
+}
 #logoText {
     color: white;
 }
