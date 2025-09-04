@@ -9,16 +9,19 @@ img {
 .pageContainer {
     display: flex;
     height: 100%;
+    width: 1440px;
+    border: 2px solid black;
 }
 
 .image {
     background-image: url('IMG_0189.jpg');
     width: 33%;
-    height: 100%;
+    height: 1024px;
     align-content: space-between;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .credit {
@@ -34,11 +37,40 @@ img {
     opacity: 0.6;
     display: flex;
     justify-content: center;
+    margin-top: 300px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 231, 231);
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.blurb>div {
+    display: flex;
+    flex-direction: column;
+}
+.formEntry {
+    display: flex;
+    flex-direction: column;
+}
+
+.formEntry>div {
     display: flex;
 
 }
