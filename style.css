@@ -2,9 +2,40 @@
     margin: 0;
 }
 
-.image {
-    background-image: url("IMG_0189.jpg");
+img {
+    height: 100%;
 }
+
 .pageContainer {
     display: flex;
 }
+
+.image {
+    background-image: url('IMG_0189.jpg');
+    width: 33%;
+    height: 100%;
+    align-content: space-between;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.credit {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logoContainer {
+    height: 150px;
+    width: auto;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+
