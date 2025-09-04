@@ -15,7 +15,10 @@ img {
 
 .image {
     background-image: url('IMG_0189.jpg');
-    width: 33%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33.33%;
     height: 1024px;
     align-content: space-between;
     padding-top: 20px;
@@ -51,6 +54,10 @@ img {
     display: flex;
     flex-direction: column;
     background-color: rgb(234, 231, 231);
+    width: 66.66%;
+}
+
+.formSection>div {
     padding-left: 30px;
 }
 
@@ -69,6 +76,9 @@ img {
 .formEntry {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding-bottom: 25px;
 }
 
 .formEntry>div {
@@ -79,6 +89,16 @@ img {
     display: flex;
     flex-direction: column;
 }
+
+.formFooter {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 #logoText {
     color: white;
+}
+
+#lets {
+    margin-top: 10px;
 }
