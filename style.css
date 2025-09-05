@@ -50,6 +50,12 @@ img {
     display: flex;
     align-items: center;
     gap: 15px;
+    opacity: initial;
+}
+
+.credit>p {
+    font-weight: 300;
+    padding-bottom: 15px;
 }
 
 .formSection {
@@ -115,6 +121,7 @@ p {
 }
 .logo>p {
     font-family: Norse-Bold;
+    font-size: 48px;
 }
 #logoText {
     color: white;
