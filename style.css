@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -9,7 +8,7 @@ img {
 
 .pageContainer {
     display: flex;
-    height: 100%;
+    height: auto;
     width: 1440px;
     border: 2px solid black;
 }
@@ -22,7 +21,6 @@ img {
     width: 33.33%;
     height: 1024px;
     align-content: space-between;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -35,7 +33,7 @@ img {
 }
 
 .logoContainer {
-    height: 150px;
+    height: 125px;
     width: auto;
     background-color: black;
     opacity: 0.6;
@@ -55,13 +53,14 @@ img {
 
 .credit>p {
     font-weight: 300;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: small;
 }
 
 .formSection {
     display: flex;
     flex-direction: column;
-    background-color: rgb(243, 241, 241);
+    background-color: rgba(248, 248, 248, 0.918);
     width: 66.66%;
 }
 
@@ -103,11 +102,13 @@ img {
 
 label {
     font-size: 12px;
+    letter-spacing: 2px;
 }
 
 p {
     font-size: x-large;
     font-weight: bold;
+    margin: 0;
 }
 
 .formFooter {
@@ -128,7 +129,8 @@ p {
 }
 
 #lets {
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 0%;
 }
 
 span {
@@ -136,14 +138,15 @@ span {
 }
 
 button {
-    padding: 10px;
+    padding: 16px;
     border: 2px hidden;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
     border-radius: 5px;
     background-color: rgb(67, 141, 67);
     color: white;
     font-weight: bold;
+    font-size: 16px;
 }
 
 input {
