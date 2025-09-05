@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 img {
@@ -40,7 +41,7 @@ img {
     opacity: 0.6;
     display: flex;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 250px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
@@ -48,17 +49,18 @@ img {
 .logo {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .formSection {
     display: flex;
     flex-direction: column;
-    background-color: rgb(234, 231, 231);
+    background-color: rgb(243, 241, 241);
     width: 66.66%;
 }
 
 .formSection>div {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .blurb {
@@ -67,6 +69,7 @@ img {
     gap: 25px;
     margin-top: 200px;
     margin-bottom: 50px;
+    padding-right: 180px;
 }
 
 .blurb>div {
@@ -76,13 +79,15 @@ img {
 .formEntry {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     background-color: white;
     padding-bottom: 25px;
+    box-shadow: 0px 4px 6px #a0a5a7;
 }
 
 .formEntry>div {
     display: flex;
+    gap: 50px;
 }
 
 .formEntry>div>div {
@@ -90,11 +95,27 @@ img {
     flex-direction: column;
 }
 
+label {
+    font-size: 12px;
+}
+
+p {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .formFooter {
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
+.logIn>p {
+    font-size: medium;
+    font-weight: light;
+}
+.logo>p {
+    font-family: Norse-Bold;
+}
 #logoText {
     color: white;
 }
@@ -102,3 +123,26 @@ img {
 #lets {
     margin-top: 10px;
 }
+
+span {
+    font-style: italic;
+}
+
+button {
+    padding: 10px;
+    border: 2px hidden;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    background-color: rgb(67, 141, 67);
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    border: 1px solid #dfd9d9;
+    border-radius: 4px;
+    height: 25px;
+}
+
