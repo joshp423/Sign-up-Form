@@ -29,42 +29,42 @@
                     
                     <p id="youKnow">You <span>know</span> you want to.</p>
                 </div>
-                <form action="submit"></form>
+                <form action="submit" method="post">
                     <div class="formEntry">
                         <p id="lets">Let's do this!</p>
                             <div class="names">
                                 <div>
                                     <label for="firstName">FIRST NAME</label>
-                                    <input type="text">
+                                    <input id= "firstName" type='text'>
                                 </div>
                                 <div>
                                     <label for="lastName">LAST NAME</label>
-                                    <input type="text">
+                                    <input id="lastName" type='text'>
                                 </div>
                             </div>
                             <div class="emailPhone">
                                 <div>
                                     <label for="email">EMAIL</label>
-                                    <input type="email">
+                                    <input id="email" type='email'>
                                 </div>
                                 <div>
                                     <label for="phoneNumber">PHONE NUMBER</label>
-                                    <input type="number">
+                                    <input id="phoneNumber"type="text">
                                 </div>
                             </div>
                             <div class="passwords">
                                 <div>
                                     <label for="password">PASSWORD</label>
-                                    <input type="password">
+                                    <input id="password" type="password" minlength="6">
                                 </div>
                                 <div>
                                     <label for="confirmPassword">CONFIRM PASSWORD</label>
-                                    <input type="password">
+                                    <input id="confirmPassword" type="password" minlength="6">
                                 </div>
                             </div>
                     </div>
                     <div class="formFooter">
-                        <button>Create Account</button>
+                        <button type="submit">Create Account</button>
                     </div>
                 </form>
                 <div class="logIn">
