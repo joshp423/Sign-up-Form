@@ -6,7 +6,15 @@ img {
     height: 100%;
 }
 
+.background {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
 .pageContainer {
+    margin: 10%;
     display: flex;
     height: auto;
     width: 1440px;
@@ -143,10 +151,19 @@ button {
     padding-left: 60px;
     padding-right: 60px;
     border-radius: 5px;
-    background-color: rgb(67, 141, 67);
+    background-color: #4A4E1A;
     color: white;
     font-weight: bold;
     font-size: 16px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    border-radius: 4px;
 }
 
 input {
@@ -155,4 +172,5 @@ input {
     border-radius: 4px;
     height: 25px;
 }
+
 
